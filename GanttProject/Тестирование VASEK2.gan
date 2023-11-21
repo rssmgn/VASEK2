@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Тестирование чат-бота VASEK2" company="Команда VASEK2" webLink="http://vasek2.altsu.ru" view-date="2023-10-31" view-index="0" gantt-divider-location="486" resource-divider-location="300" version="3.2.3230" locale="ru_RU">
+    <description>
+        <![CDATA[Команда «VASEK2» предлагает свои услуги по разработке и внедрению средства технической поддержки пользователей – чат-бот на платформе телеграм. 
+Создание  телеграм-бота позволит сотрудникам получать необходимую информацию по установки и обслуживанию  информационных систем и оборудования, своевременно оповещать о предстоящих изменениях, обучении персонала. 
+Данный продукт позволитавтоматизировать работу службы поддержки и сэкономит до 80% времени данных специалистов.
+Возможности чат-бот:
+-ответить на частые запросы пользователей без привлечения технического персонала;
+- предоставит необходимые технические документы, схемы или рисунки;
+- отправит запрос на почту техническому специалисту в случае сложного запроса;
+- сообщит пользователям о важных новостях (предстоящих изменениях, обучении).
+]]>
+    </description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Название" width="277" order="0"/>
+        <field id="tpd4" name="Дата начала" width="104" order="1"/>
+        <field id="tpd5" name="Дата окончания" width="104" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#33ff33 #ffff00 #ff9933 #ffcc00 #ff9900 #ff3333]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Имя" width="210" order="0"/>
+        <field id="1" name="Стандартная роль" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="ru">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY">
+            <![CDATA[Новый Год]]>
+        </date>
+        <date year="" month="1" date="7" type="HOLIDAY">
+            <![CDATA[Рождество Христово]]>
+        </date>
+        <date year="" month="2" date="23" type="HOLIDAY">
+            <![CDATA[День Защитника Отечества]]>
+        </date>
+        <date year="" month="3" date="8" type="HOLIDAY">
+            <![CDATA[Международный женский день]]>
+        </date>
+        <date year="" month="5" date="1" type="HOLIDAY">
+            <![CDATA[Праздник Весны и Труда]]>
+        </date>
+        <date year="" month="5" date="9" type="HOLIDAY">
+            <![CDATA[День Победы]]>
+        </date>
+        <date year="" month="6" date="12" type="HOLIDAY">
+            <![CDATA[День России]]>
+        </date>
+        <date year="" month="11" date="4" type="HOLIDAY">
+            <![CDATA[День народного единства]]>
+        </date>
+        <date year="2021" month="1" date="2" type="HOLIDAY"/>
+        <date year="2021" month="1" date="3" type="HOLIDAY"/>
+        <date year="2021" month="1" date="4" type="HOLIDAY"/>
+        <date year="2021" month="1" date="5" type="HOLIDAY"/>
+        <date year="2021" month="1" date="6" type="HOLIDAY"/>
+        <date year="2021" month="1" date="8" type="HOLIDAY"/>
+        <date year="2021" month="1" date="9" type="HOLIDAY"/>
+        <date year="2021" month="1" date="10" type="HOLIDAY"/>
+        <date year="2021" month="2" date="20" type="WORKING_DAY"/>
+        <date year="2021" month="2" date="22" type="HOLIDAY"/>
+        <date year="2021" month="11" date="5" type="HOLIDAY"/>
+        <date year="2021" month="12" date="31" type="HOLIDAY"/>
+        <date year="2020" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="1" date="5" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="1" date="6" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="1" date="8" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="2" date="24" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 23 февраля)]]>
+        </date>
+        <date year="2020" month="3" date="9" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 8 марта)]]>
+        </date>
+        <date year="2020" month="5" date="4" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 4 января)]]>
+        </date>
+        <date year="2020" month="5" date="5" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 5 января)]]>
+        </date>
+        <date year="2019" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2019" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2019" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2019" month="1" date="8" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2019" month="5" date="2" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 5 января)]]>
+        </date>
+        <date year="2019" month="5" date="3" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 6 января)]]>
+        </date>
+        <date year="2019" month="5" date="10" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 23 февраля)]]>
+        </date>
+        <date year="2015" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="5" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="6" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="8" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="9" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (3 января)]]>
+        </date>
+        <date year="2015" month="5" date="4" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (4 января)]]>
+        </date>
+        <date year="2016" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="1" date="5" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="1" date="6" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="1" date="8" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="2" date="20" type="WORKING_DAY">
+            <![CDATA[Выходной перенесен на 2016-02-22]]>
+        </date>
+        <date year="2016" month="2" date="22" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (20 февраля)]]>
+        </date>
+        <date year="2016" month="3" date="7" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (3 января)]]>
+        </date>
+        <date year="2016" month="5" date="2" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (1 мая)]]>
+        </date>
+        <date year="2016" month="5" date="3" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (2 января)]]>
+        </date>
+        <date year="2016" month="6" date="13" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (12 июня)]]>
+        </date>
+        <date year="2017" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="1" date="5" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="1" date="6" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="1" date="8" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="2" date="24" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (1 января)]]>
+        </date>
+        <date year="2017" month="5" date="8" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (7 января)]]>
+        </date>
+        <date year="2017" month="11" date="6" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (4 ноября)]]>
+        </date>
+        <date year="2018" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2018" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2018" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2018" month="1" date="5" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2018" month="3" date="9" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 6 января)]]>
+        </date>
+        <date year="2018" month="4" date="28" type="WORKING_DAY">
+            <![CDATA[Рабочий день взамен 30 апреля]]>
+        </date>
+        <date year="2018" month="4" date="30" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 28 апреля)]]>
+        </date>
+        <date year="2018" month="5" date="2" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 7 января)]]>
+        </date>
+        <date year="2018" month="6" date="9" type="WORKING_DAY">
+            <![CDATA[Рабочий день взамен 11 июня]]>
+        </date>
+        <date year="2018" month="6" date="11" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 9 июня)]]>
+        </date>
+        <date year="2018" month="12" date="29" type="WORKING_DAY">
+            <![CDATA[Рабочий день взамен 31 декабря]]>
+        </date>
+        <date year="2018" month="12" date="31" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 29 декабря)]]>
+        </date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Разработка плана" color="#8cb6ce" meeting="false" start="2023-11-06" duration="3" complete="100" thirdDate="2023-11-20" thirdDate-constraint="0" expand="true">
+            <depend id="1" type="2" difference="3" hardness="Strong"/>
+        </task>
+        <task id="1" name="Тестирование требований" color="#8cb6ce" meeting="false" start="2023-11-13" duration="6" complete="0" thirdDate="2023-10-27" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Проверка требований и остальной документации на логичность, соответствие потребностям клиента, отсутствие двусмысленностей]]>
+            </notes>
+            <depend id="3" type="2" difference="6" hardness="Strong"/>
+        </task>
+        <task id="3" name="Разработка тестовой документации" color="#8cb6ce" meeting="false" start="2023-11-27" duration="6" complete="0" thirdDate="2023-11-08" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Разработка и подготовка чеклистов и тесткейсов согласно требованиям]]>
+            </notes>
+            <depend id="2" type="2" difference="6" hardness="Strong"/>
+        </task>
+        <task id="2" name="Тестирование ПО" color="#8cb6ce" meeting="false" start="2023-12-11" duration="47" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Тестировани продукта согласно документации]]>
+            </notes>
+            <depend id="5" type="1" difference="17" hardness="Strong"/>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" name="Альфа-тестирование" color="#8cb6ce" meeting="false" start="2023-12-30" duration="18" complete="0" thirdDate="2023-12-29" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Альфа тестирование продукта с привлечением собственных человеческих ресурсов нашей команды]]>
+            </notes>
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" name="Бета-тестирование" color="#8cb6ce" meeting="false" start="2024-01-22" duration="12" complete="0" thirdDate="2023-11-18" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Бета тестирование продукта с привлечением человеческих ресурсов клиента и его пользователй]]>
+            </notes>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" name="Передача проекта заказчику" color="#ff9933" meeting="false" start="2024-02-05" duration="5" complete="0" thirdDate="2024-01-25" thirdDate-constraint="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" name="Закрытие проекта" color="#ffff00" meeting="false" start="2024-02-10" duration="6" complete="0" thirdDate="2024-02-12" thirdDate-constraint="0" expand="true"/>
+        <task id="9" name="Согласование и внесение изменений в проект" color="#33ff33" meeting="false" start="2024-01-09" duration="5" complete="0" thirdDate="2024-02-16" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Антон Рассомагин" function="1" contacts="antonyoche@yandex.ru" phone="+7-913-232-833"/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="1" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Руководитель тестирования"/>
+    </roles>
+</project>
